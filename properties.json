@@ -1,0 +1,44 @@
+{
+	"items": {
+		
+		"wood": {
+			"sprite": "res://assets/wood.png",
+			"script": "res://scripts/items/blank.gd"
+		},
+		"stone": {
+			"sprite": "res://assets/stone.png",
+			"script": "res://scripts/items/blank.gd"
+		}
+	},
+	"objects": {
+		
+		"tree": {
+			"sprite": "res://assets/tree.png",
+			"script": "res://scripts/objects/tree.gd",
+			"invunrable": false,
+			"health" : 10,
+			"size": 16
+		},
+		"rock": {
+			"sprite": "res://assets/table.png",
+			"script": "res://scripts/objects/rock.gd",
+			"invunrable": false,
+			"health" : 10,
+			"size": 16
+		},
+		"crafter": {
+			"sprite": "res://assets/crafter.png",
+			"script": "res://scripts/objects/crafter.gd",
+			"invunrable": false,
+			"health" : 1,
+			"size": 16
+		},
+		"chest": {
+			"sprite": "res://assets/tree.png",
+			"script": "res://scripts/objects/chest.gd",
+			"invunrable": false,
+			"health" : 10,
+			"size": 1
+		}
+	}
+}

@@ -1,0 +1,728 @@
+{
+  "chunks": {
+	"0,-1": [
+	  {
+		"data": {
+
+		},
+		"id": "wood",
+		"position": [
+		  483,
+		  -117
+		],
+		"type": "item"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  0,
+		  -900
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  50,
+		  -950
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  150,
+		  -650
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  250,
+		  -1000
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  250,
+		  -600
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  300,
+		  -650
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  350,
+		  -350
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  400,
+		  -750
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  500,
+		  -400
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  500,
+		  -250
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  550,
+		  -250
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  700,
+		  -800
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  700,
+		  -600
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  700,
+		  -550
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  700,
+		  -300
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  750,
+		  -300
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  900,
+		  -200
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  950,
+		  -800
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  950,
+		  -350
+		],
+		"type": "object"
+	  }
+	],
+	"0,0": [
+	  {
+		"data": {
+		  "health": 7
+		},
+		"id": "tree",
+		"position": [
+		  272,
+		  326
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+
+		},
+		"id": "wood",
+		"position": [
+		  0,
+		  0
+		],
+		"type": "item"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  100,
+		  550
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  150,
+		  100
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  200,
+		  150
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 7
+		},
+		"id": "tree",
+		"position": [
+		  200,
+		  250
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  300,
+		  50
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 7
+		},
+		"id": "tree",
+		"position": [
+		  300,
+		  300
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 9
+		},
+		"id": "tree",
+		"position": [
+		  300,
+		  600
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  350,
+		  700
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  350,
+		  800
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  450,
+		  350
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  450,
+		  800
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  450,
+		  950
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  500,
+		  0
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  500,
+		  150
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  550,
+		  600
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  600,
+		  950
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  650,
+		  200
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  750,
+		  850
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  800,
+		  750
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  850,
+		  300
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  950,
+		  950
+		],
+		"type": "object"
+	  }
+	],
+	"0,1": [
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  0,
+		  1700
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  50,
+		  1000
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  50,
+		  1100
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  50,
+		  1900
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  100,
+		  1600
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  200,
+		  1150
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  200,
+		  1300
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  200,
+		  1600
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  200,
+		  1750
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  400,
+		  1550
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  450,
+		  1300
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  450,
+		  1900
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  500,
+		  1800
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  600,
+		  1550
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  650,
+		  1250
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  650,
+		  1550
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  650,
+		  1750
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  750,
+		  1100
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  750,
+		  1950
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  800,
+		  1750
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  850,
+		  1000
+		],
+		"type": "object"
+	  },
+	  {
+		"data": {
+		  "health": 10
+		},
+		"id": "tree",
+		"position": [
+		  950,
+		  1200
+		],
+		"type": "object"
+	  }
+	]
+  },
+  "generated_chunks": [
+	[]
+  ]
+}

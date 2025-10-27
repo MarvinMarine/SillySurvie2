@@ -1,0 +1,35 @@
+[gd_scene load_steps=5 format=3 uid="uid://c6nanu32yc4ps"]
+
+[ext_resource type="Script" path="res://character_body_2d.gd" id="1_15gyo"]
+[ext_resource type="Texture2D" uid="uid://ivphjrhq46e4" path="res://player.png" id="2_65771"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_o1dj7"]
+radius = 16.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ts5oe"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+scale = Vector2(3.98419, 3.98419)
+script = ExtResource("1_15gyo")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+texture = ExtResource("2_65771")
+offset = Vector2(11, 0)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+shape = SubResource("CircleShape2D_o1dj7")
+
+[node name="HandArea" type="Area2D" parent="CharacterBody2D"]
+position = Vector2(26.3542, 8.9407e-08)
+scale = Vector2(1.3654, 1.1646)
+collision_layer = 0
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D/HandArea"]
+shape = SubResource("RectangleShape2D_ts5oe")
+
+[node name="HoldItemPos" type="Marker2D" parent="CharacterBody2D"]
+position = Vector2(31.625, 0)
+scale = Vector2(1.3654, 1.1646)

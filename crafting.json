@@ -1,0 +1,22 @@
+{
+	"crafting":{
+		"wood":{
+			"input":[
+				"stone",
+				"stone"
+			],
+			"output":[
+				"wood"
+			]
+		},
+		"stone":{
+			"input":[
+				"wood",
+				"wood"
+			],
+			"output":[
+				"stone"
+			]
+		}
+	}
+}

@@ -1,0 +1,829 @@
+{
+  "data": [
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -2000,
+        -1550
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "tree",
+      "position": [
+        -2000,
+        -250
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "tree",
+      "position": [
+        -1950,
+        -1650
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "tree",
+      "position": [
+        -1950,
+        -1550
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "tree",
+      "position": [
+        -1900,
+        -1000
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "tree",
+      "position": [
+        -1900,
+        -800
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "tree",
+      "position": [
+        -1850,
+        -1950
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "tree",
+      "position": [
+        -1850,
+        -1100
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -1850,
+        -550
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "tree",
+      "position": [
+        -1800,
+        -1350
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -1800,
+        -950
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -1800,
+        -350
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "tree",
+      "position": [
+        -1750,
+        -1900
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -1750,
+        -1700
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -1750,
+        -750
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -1700,
+        -1850
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "tree",
+      "position": [
+        -1700,
+        -950
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -1650,
+        -1150
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -1650,
+        -1050
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -1600,
+        -1350
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "tree",
+      "position": [
+        -1600,
+        -50
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -1550,
+        -1750
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -1500,
+        -1250
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -1450,
+        -1900
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -1450,
+        -600
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "tree",
+      "position": [
+        -1350,
+        -1700
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -1300,
+        -1850
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "tree",
+      "position": [
+        -1300,
+        -1050
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "tree",
+      "position": [
+        -1300,
+        -950
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -1300,
+        -650
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "tree",
+      "position": [
+        -1300,
+        -200
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -1250,
+        -1450
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -1250,
+        -1300
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -1200,
+        -450
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -1200,
+        -50
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "tree",
+      "position": [
+        -1100,
+        -1700
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -1100,
+        -1000
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -1050,
+        -1100
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -1000,
+        -1300
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -1000,
+        -1100
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "tree",
+      "position": [
+        -1000,
+        -700
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -950,
+        -1800
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "tree",
+      "position": [
+        -950,
+        -1100
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -950,
+        -50
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -900,
+        -900
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "tree",
+      "position": [
+        -850,
+        -1950
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "tree",
+      "position": [
+        -850,
+        -1900
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -800,
+        -450
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -750,
+        -1800
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "tree",
+      "position": [
+        -750,
+        -950
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "tree",
+      "position": [
+        -700,
+        -650
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "tree",
+      "position": [
+        -650,
+        -2000
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -650,
+        -1100
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "tree",
+      "position": [
+        -650,
+        -950
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "tree",
+      "position": [
+        -600,
+        -750
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "tree",
+      "position": [
+        -550,
+        -1800
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "tree",
+      "position": [
+        -550,
+        -700
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "tree",
+      "position": [
+        -550,
+        -300
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "tree",
+      "position": [
+        -550,
+        -250
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -500,
+        -1300
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -500,
+        -1150
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -400,
+        -1100
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -400,
+        -1050
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -350,
+        -1900
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "tree",
+      "position": [
+        -350,
+        -1700
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -350,
+        -1200
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -300,
+        -1850
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -300,
+        -1450
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "tree",
+      "position": [
+        -250,
+        -2000
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "rock",
+      "position": [
+        -250,
+        -1200
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "tree",
+      "position": [
+        -150,
+        -1500
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "tree",
+      "position": [
+        -150,
+        -1450
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "tree",
+      "position": [
+        -100,
+        -1250
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "tree",
+      "position": [
+        -50,
+        -1350
+      ],
+      "type": "object"
+    },
+    {
+      "data": {
+        "health": 10
+      },
+      "id": "chest",
+      "position": [
+        -7.25903129577637,
+        -168.810775756836
+      ],
+      "type": "object"
+    }
+  ]
+}
