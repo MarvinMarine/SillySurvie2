@@ -43,6 +43,12 @@
 			"invunrable": false,
 			"health" : 10,
 			"size": 1
+		},
+		"sign": {
+			"sprite": "res://assets/crafter.png",
+			"script": "res://scripts/objects/sign.gd",
+			"invunrable": true,
+			"size": 1
 		}
 	}
 }

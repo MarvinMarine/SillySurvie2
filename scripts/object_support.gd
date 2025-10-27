@@ -12,8 +12,9 @@ func register(id,in_data):
 	sprite_2d.set_texture(load(json_as_dict["objects"][id]["sprite"]))
 	object.set_script(load(json_as_dict["objects"][id]["script"]))
 	object.set_process(true)
-	object.health = json_as_dict["objects"][id]["health"]
-	object.max_health = json_as_dict["objects"][id]["health"]
+	if json_as_dict["objects"][id].has("health"):
+		object.health = json_as_dict["objects"][id]["health"]
+		object.max_health = json_as_dict["objects"][id]["health"]
 	if in_data != null:
 		object.data = in_data
 	object.entity_id = id
