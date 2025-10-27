@@ -6,7 +6,7 @@ extends CharacterBody2D
 var global
 @onready var world_gen: WorldGen = $"../WorldGen"
 
-const SPEED = 500.0
+const SPEED = 250
 const ROTATE_SPEED = 0.3
 
 var HeldItem : Item
@@ -14,21 +14,20 @@ var HoldingItem = false
 var chunk_im_in = Vector2(5000,-1000000000)
 var chunks_loaded = []
 
+var char_direction : Vector2
+
 func _ready() -> void:
 	global = get_node("/root/Global")
 
 func _physics_process(delta: float) -> void:
 	
-
-	if Input.is_action_pressed("MoveLeft") or Input.is_action_pressed("MoveRight"):
-		velocity.x = Input.get_axis("MoveLeft","MoveRight") * SPEED
-	else:
-		velocity.x = move_toward(velocity.x, 0, SPEED)
-		
-	if Input.is_action_pressed("MoveUp") or Input.is_action_pressed("MoveDown"):
-		velocity.y = Input.get_axis("MoveUp","MoveDown") * SPEED
-	else:
-		velocity.y = move_toward(velocity.y, 0, SPEED)
+	char_direction.x = Input.get_axis("MoveLeft","MoveRight")
+	char_direction.y = Input.get_axis("MoveUp","MoveDown")
+	
+	if char_direction:
+		velocity = char_direction * SPEED
+	else: 
+		velocity = velocity.move_toward(Vector2.ZERO, SPEED)
 		
 	if velocity.length() > 1:
 		rotation = lerp_angle(rotation,velocity.angle(),ROTATE_SPEED)
