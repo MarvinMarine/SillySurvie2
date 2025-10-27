@@ -19,10 +19,6 @@ func FUCK_YOU():
 	var b = [4,3,2]
 	print("a - b " + str(subtract(a,b)))
 	print("b - a " + str(subtract(b,a)))
-	print("a - b " + str(subtract(a,b)))
-	print("b - a " + str(subtract(b,a)))
-	print("a - b " + str(subtract(a,b)))
-	print("b - a " + str(subtract(b,a)))
 
 func spawn_item(id,node,pos,data):
 	var item = ItemScene.instantiate()
@@ -73,8 +69,8 @@ func save_chunk(pos, root, unload):
 
 
 func save(entity, chunk, chunk_file):
-	entity.save_data_base()
 	entity.save_data()
+	entity.save_data_base()
 	chunk_file["data"].append({"type":entity.entity_type,"id":entity.entity_id,"position":[entity.global_position.x,entity.global_position.y],"data":entity.data})
 	return chunk_file
 	

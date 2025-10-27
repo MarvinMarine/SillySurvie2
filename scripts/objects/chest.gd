@@ -1,8 +1,6 @@
 extends Object_
 
 
-func init():
-	pass
 	
 func area_trigger(area, apples):
 	print("Pineapples")

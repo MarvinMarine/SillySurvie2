@@ -1,10 +1,6 @@
 extends Object_
 
 
-func init():
-	var global = get_node("/root/Global")
-
-
 func _process(delta: float):
 	pass
 

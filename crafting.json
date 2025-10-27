@@ -1,22 +1,17 @@
 {
 	"crafting":{
-		"wood":{
+		"godot":{
 			"input":[
 				"stone",
-				"stone"
-			],
-			"output":[
-				"wood"
-			]
-		},
-		"stone":{
-			"input":[
 				"wood",
+				"wood",
+				"stone",
 				"wood"
 			],
 			"output":[
-				"stone"
+				"mushroom"
 			]
 		}
+		
 	}
 }

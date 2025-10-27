@@ -8,6 +8,10 @@
 		"stone": {
 			"sprite": "res://assets/stone.png",
 			"script": "res://scripts/items/blank.gd"
+		},
+		"mushroom": {
+			"sprite": "res://assets/mushroom.png",
+			"script": "res://scripts/items/blank.gd"
 		}
 	},
 	"objects": {
