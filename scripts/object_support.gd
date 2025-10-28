@@ -11,12 +11,13 @@ func register(id,in_data):
 	var json_as_dict = JSON.parse_string(json_as_text)
 	sprite_2d.set_texture(load(json_as_dict["objects"][id]["sprite"]))
 	sprite_2d.scale = Vector2(1,1) * float(json_as_dict["objects"][id]["size"])
-	print(float(json_as_dict["objects"][id]["size"]))
 	object.set_script(load(json_as_dict["objects"][id]["script"]))
 	object.set_process(true)
 	if json_as_dict["objects"][id].has("health"):
 		object.health = json_as_dict["objects"][id]["health"]
 		object.max_health = json_as_dict["objects"][id]["health"]
+	if json_as_dict["objects"][id].has("data"):
+		object.data = json_as_dict["objects"][id]["data"]
 	if in_data != null:
 		object.data = in_data
 	object.entity_id = id

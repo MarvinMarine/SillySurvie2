@@ -14,6 +14,8 @@ func register(id,in_data):
 	item.set_process(true)
 	sprite_2d.set_texture(load(json_as_dict["items"][id]["sprite"]))
 	item.set_script(load(json_as_dict["items"][id]["script"]))
+	if json_as_dict["items"][id].has("data"):
+		item.data = json_as_dict["items"][id]["data"]
 	if in_data != null:
 		item.data = in_data
 	item.entity_id = id

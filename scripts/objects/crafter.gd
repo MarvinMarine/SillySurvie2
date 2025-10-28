@@ -17,19 +17,24 @@ func area_trigger(body, area):
 func check_crafting():
 	var Ritems = items.duplicate()
 	for i in Global.crafting_list["crafting"].values():
-		var basis = []
-		for j in i["input"].size():
-			
-			if Ritems.size() >= i["input"].size():
-				basis.append(Ritems[j])
-		if basis == i["input"]:
-			print(i["input"].size())
+		if list_in_another(i["input"],Ritems):
 			for j in i["input"].size():
 				items.pop_back()
 			for l in i["output"]:
 				items.append(l)
 			check_crafting()
 
+
+func list_in_another(item,against):
+	if item.size() <= against.size():
+		var available = false
+		for i in item.size():
+			available = false
+			if against[i-item.size()] == item[i]:
+				available = true
+			else:
+				break
+		return available
 
 func use():
 	if items.size() != 0:

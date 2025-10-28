@@ -39,6 +39,7 @@ func _physics_process(delta: float) -> void:
 	if HoldingItem:
 		if is_instance_valid(HeldItem):
 			HeldItem.global_position = hold_item_pos.global_position
+			HeldItem.use()
 			HeldItem.moved(global)
 		else: 
 			HeldItem = null

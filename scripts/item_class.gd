@@ -15,7 +15,6 @@ func _process(delta: float) -> void:
 func use():
 	pass
 	
-	
 func moved(global):
 	chunk_pos = get_node("/root/Global").to_chunk(self.global_position)
 	
