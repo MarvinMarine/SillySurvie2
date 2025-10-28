@@ -16,6 +16,6 @@ func _process(delta: float) -> void:
 	if Input.is_action_just_pressed("Test2"):
 		global.spawn_object("crafter",self,character_body_2d.global_position, null)
 	if Input.is_action_just_pressed("Test1"):
-		global.spawn_object("sign",self,character_body_2d.global_position, null)
+		global.spawn_object("sign",self,character_body_2d.global_position, {"audio":"res://assets/audio/signs/hello world!_Track1.wav"})
 	if Input.is_action_just_pressed("Test3"):
 		global.spawn_object("chest",self,character_body_2d.global_position, null)

@@ -816,6 +816,18 @@
 		355.000030517578
 	  ],
 	  "type": "object"
+	},
+	{
+	  "data": {
+		"audio": "res://assets/audio/signs/hello world!_Track1.wav",
+		"health": 1
+	  },
+	  "id": "sign",
+	  "position": [
+		587.666748046875,
+		396.666748046875
+	  ],
+	  "type": "object"
 	}
   ]
 }

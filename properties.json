@@ -21,21 +21,21 @@
 			"script": "res://scripts/objects/tree.gd",
 			"invunrable": false,
 			"health" : 10,
-			"size": 16
+			"size": 1
 		},
 		"rock": {
 			"sprite": "res://assets/table.png",
 			"script": "res://scripts/objects/rock.gd",
 			"invunrable": false,
 			"health" : 10,
-			"size": 16
+			"size": 1
 		},
 		"crafter": {
 			"sprite": "res://assets/crafter.png",
 			"script": "res://scripts/objects/crafter.gd",
 			"invunrable": false,
 			"health" : 1,
-			"size": 16
+			"size": 1
 		},
 		"chest": {
 			"sprite": "res://assets/tree.png",
@@ -45,10 +45,10 @@
 			"size": 1
 		},
 		"sign": {
-			"sprite": "res://assets/crafter.png",
+			"sprite": "res://assets/sign.png",
 			"script": "res://scripts/objects/sign.gd",
 			"invunrable": true,
-			"size": 1
+			"size": 0.5
 		}
 	}
 }
