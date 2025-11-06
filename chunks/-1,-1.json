@@ -816,7 +816,8 @@
     },
     {
       "data": {
-        "health": 10
+        "health": 10,
+        "items": []
       },
       "id": "chest",
       "position": [

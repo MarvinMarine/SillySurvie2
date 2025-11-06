@@ -1,13 +1,11 @@
-extends Object_
+extends Item
 
-func init():
+
+func _ready():
 	pass
 
 func _process(delta: float):
 	pass
 
 func use():
-	pass
-
-func damage(n):
 	pass

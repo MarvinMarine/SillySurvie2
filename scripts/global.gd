@@ -35,11 +35,20 @@ func spawn_object(id,node,pos,data):
 	object.get_node("Node").register(id,data)
 	return object
 	
+func spawn_creature(id,node,pos,data):
+	var object = ObejctScene.instantiate()
+	node.add_child(object)
+	object.global_position = pos
+	object.get_node("Node").register(id,data)
+	return object
+	
 func summon(entity,destination):
 	if entity["type"] == "object":
 		spawn_object(entity["id"],destination,Vector2(entity["position"][0],entity["position"][1]),entity["data"])
 	if entity["type"] == "item":
 		spawn_item(entity["id"],destination,Vector2(entity["position"][0],entity["position"][1]),entity["data"])
+	if entity["type"] == "creature":
+		spawn_creature(entity["id"],destination,Vector2(entity["position"][0],entity["position"][1]),entity["data"])
 		
 func init_chunk(pos):
 	var file = FileAccess.open("res://chunks/" + str(pos.x) + "," + str(pos.y) + ".json", FileAccess.WRITE)

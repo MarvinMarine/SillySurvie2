@@ -1,17 +1,27 @@
-extends Object_
+extends Object_                                          
 
+var items = []
 
-	
-func area_trigger(area, apples):
-	print("Pineapples")
-	print(area)
-	print(apples)
+func init():
+	var global = get_node("/root/Global")
+	if data.has("items"):
+		items = data["items"]
 
-func _process(delta: float):
-	area_2d
+func area_trigger(body, area):
+	items.append(body.entity_id)
+	body.queue_free()
 
 func use():
-	pass
+	if items.size() >= 1:
+		Global.spawn_item(items[items.size()-1],get_parent(),global_position + Vector2(0,-100),null)
+		items.pop_back()
 
 func damage(n):
-	pass
+	flash_red()
+	health -= n
+	if health == 0:
+		queue_free()
+		Global.spawn_item("wood",get_parent(),self.global_position,null)
+		
+func save_data():
+	data["items"] = items

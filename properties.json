@@ -3,20 +3,35 @@
 		
 		"wood": {
 			"sprite": "res://assets/wood.png",
-			"script": "res://scripts/items/blank.gd"
+			"script": "res://scripts/items/blank.gd",
+			"alchemical_stats": {
+				"nobility":5,
+				"holyness":10,
+				"stability":15,
+				"heat":5,
+				"keima":15,
+				"aqueous":10,
+				"reactivity":35,
+				"chaos":18
+			}
 		},
 		"stone": {
 			"sprite": "res://assets/stone.png",
-			"script": "res://scripts/items/blank.gd"
+			"script": "res://scripts/items/blank.gd",
+			"alchemical_stats": {
+				"nobility":5,
+				"holyness":5,
+				"stability":40,
+				"heat":10,
+				"keima":30,
+				"aqueous":0,
+				"reactivity":0,
+				"chaos":45
+			}
 		},
 		"mushroom": {
 			"sprite": "res://assets/mushroom.png",
 			"script": "res://scripts/items/blank.gd"
-		},
-		"pickaxe": {
-			"sprite": "res://assets/sign.png",
-			"script": "res://scripts/items/pickaxe.gd",
-			"data": {"power":5}
 		}
 	},
 	"objects": {
@@ -53,6 +68,14 @@
 			"sprite": "res://assets/sign.png",
 			"script": "res://scripts/objects/sign.gd",
 			"invunrable": true,
+			"size": 0.5
+		}
+	},
+	"creatures": {
+		"spider": {
+			"sprite": "res://assets/spider.png",
+			"script": "res://scripts/creature/spider.gd",
+			"invunrable": false,
 			"size": 0.5
 		}
 	}

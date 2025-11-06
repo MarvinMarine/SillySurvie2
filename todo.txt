@@ -1,0 +1,23 @@
+to release we want:
+	
+	Biomes
+	One boss
+	Keima system
+	Progression
+	Death
+	Player Saving
+	Caves
+	
+enemies:
+	spider
+	golem
+	troll
+	
+sprites we need:
+	crafter
+	sign
+	chest
+	keima table
+	rocks
+	trees
+	

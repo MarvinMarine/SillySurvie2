@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=3 uid="uid://dajxeioyidsin"]
+
+[ext_resource type="Texture2D" uid="uid://d0bfw832ne10i" path="res://assets/tree.png" id="1_yuc54"]
+[ext_resource type="Script" path="res://scripts/creature_support.gd" id="2_r70nd"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_jhcje"]
+radius = 11.6711
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_fpc6a"]
+radius = 21.7153
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(3.08572, 3.08572)
+texture = ExtResource("1_yuc54")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2(3.08572, 3.08572)
+shape = SubResource("CircleShape2D_jhcje")
+
+[node name="Node" type="Node" parent="."]
+script = ExtResource("2_r70nd")
+
+[node name="Area2D" type="Area2D" parent="."]
+scale = Vector2(3.08572, 3.08572)
+collision_layer = 0
+collision_mask = 2
+
+[node name="CollisionShapeArea" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource("CircleShape2D_fpc6a")
