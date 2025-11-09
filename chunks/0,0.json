@@ -2,12 +2,13 @@
   "data": [
 	{
 	  "data": {
-		"health": 10
+		"health": 10,
+		"items": []
 	  },
-	  "id": "tree",
+	  "id": "keima_table",
 	  "position": [
-		0,
-		1700
+		150,
+		150
 	  ],
 	  "type": "object"
 	},
@@ -809,22 +810,36 @@
 	},
 	{
 	  "data": {
-		"health": 10,
-		"items": [
-		  "stone",
-		  "stone",
-		  "stone",
-		  "wood",
-		  "stone",
-		  "stone"
-		]
+
 	  },
-	  "id": "chest",
+	  "id": "stone",
+	  "position": [
+		384.194549560547,
+		34.3925323486328
+	  ],
+	  "type": "item"
+	},
+	{
+	  "data": {
+
+	  },
+	  "id": "stone",
+	  "position": [
+		362.907592773438,
+		12.1501216888428
+	  ],
+	  "type": "item"
+	},
+	{
+	  "data": {
+
+	  },
+	  "id": "wood",
 	  "position": [
 		221.195159912109,
 		197.32731628418
 	  ],
-	  "type": "object"
+	  "type": "item"
 	}
   ]
 }

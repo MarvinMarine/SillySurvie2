@@ -19,7 +19,7 @@
 			"sprite": "res://assets/stone.png",
 			"script": "res://scripts/items/blank.gd",
 			"alchemical_stats": {
-				"nobility":5,
+				"nobility":10,
 				"holyness":5,
 				"stability":40,
 				"heat":10,
@@ -31,7 +31,8 @@
 		},
 		"mushroom": {
 			"sprite": "res://assets/mushroom.png",
-			"script": "res://scripts/items/blank.gd"
+			"script": "res://scripts/items/blank.gd",
+			"alchemical_stats": false
 		}
 	},
 	"objects": {
@@ -69,6 +70,13 @@
 			"script": "res://scripts/objects/sign.gd",
 			"invunrable": true,
 			"size": 0.5
+		},
+		"keima_table": {
+			"sprite": "res://assets/keima_table.png",
+			"script": "res://scripts/objects/keima_table.gd",
+			"invunrable": false,
+			"health" : 10,
+			"size": 0.2
 		}
 	},
 	"creatures": {
@@ -78,5 +86,17 @@
 			"invunrable": false,
 			"size": 0.5
 		}
+	},
+	"processes": {
+		"crushing": {
+				"nobility":-5,
+				"holyness":5,
+				"stability":-25,
+				"heat":-5,
+				"keima":-15,
+				"aqueous":10,
+				"reactivity":35,
+				"chaos":-27
+			}
 	}
 }

@@ -6,7 +6,7 @@ extends CharacterBody2D
 var global
 @onready var world_gen: WorldGen = $"../WorldGen"
 
-const SPEED = 250
+const SPEED = 500
 const ROTATE_SPEED = 0.3
 
 var HeldItem : Item

@@ -5,6 +5,7 @@ var data = {}
 var chunk_pos
 var entity_type = "item"
 var entity_id 
+var keima_stats = {} 
 
 func _ready() -> void:
 	pass

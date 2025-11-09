@@ -8,8 +8,10 @@ var crafting_list
 const chunk_size = 2000
 const density = 50.0
 
+var keima_cache = []
 var loaded_chunks = []
 var generated_chunks = []
+var keima_processes = {}
 
 func _ready() -> void:
 	crafting_list = JSON.parse_string(FileAccess.get_file_as_string("res://crafting.json"))

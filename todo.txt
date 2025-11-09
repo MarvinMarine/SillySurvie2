@@ -21,3 +21,14 @@ sprites we need:
 	rocks
 	trees
 	
+zen currently working on:
+	Keima
+	|-Ok so i need to work out which 
+	
+	
+
+	
+	
+bugs ik of but arent a problem enough to fix yet whore:
+	first keima table spawn generates the cache of all alchemy stats so if you dont load in a table but it needs to call the data itll have NONE
+	
